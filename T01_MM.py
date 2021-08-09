@@ -61,10 +61,10 @@ class MM:
 if __name__ == '__main__':
     # debug 1
     # text_ = "西安市大雁塔"
-    # file_path = r"C:/Users/15025/Desktop/NLP/IMM_Dict.txt"
+    # file_path = r"C:/Users/15025/Desktop/NLP/Dict01.txt"
     # debug 2
     text_ = "南京市长江大桥"
-    file_path = r"C:/Users/15025/Desktop/NLP/IMM_Dict_2.txt"
+    file_path = r"C:/Users/15025/Desktop/NLP/Dict02.txt"
     NLP = MM(file_path)
     print(NLP.cut(text_))
 """
